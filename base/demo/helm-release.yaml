@@ -6,6 +6,6 @@ metadata:
 spec:
   releaseName: podinfo
   chart:
-    git: https://github.com/stefanprodan/podinfo
+    git: https://github.com/myvelcn/helm-operator-get-started
     ref: v3.x
     path: charts/podinfo
