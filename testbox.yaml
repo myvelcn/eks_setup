@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: testbox
+  name: testbox
+spec:
+  containers:
+  - args:
+    - sleep
+    - "60"
+    image: busybox
+    name: testbox
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
